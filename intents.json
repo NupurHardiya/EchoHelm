@@ -1,0 +1,444 @@
+{
+   "intents":[
+   {
+      "tag":"greeting",
+      "patterns":[
+         "Hi there",
+         "How are you",
+         "Is anyone there?",
+         "Hey",
+         "Hola",
+         "Hello",
+         "Good day"
+      ],
+      "responses":[
+         "Hello, thanks for asking",
+         "Good to see you again",
+         "Hi there, how can I help?"
+      ],
+      "context":[
+         ""
+      ]
+   },
+   {
+      "tag":"goodbye",
+      "patterns":[
+         "Bye",
+         "See you later",
+         "Goodbye",
+         "Nice chatting to you, bye",
+         "Till next time"
+      ],
+      "responses":[
+         "See you!",
+         "Have a nice day",
+         "Bye! Come back again soon."
+      ],
+      "context":[
+         ""
+      ]
+   },
+   {
+      "tag":"thanks",
+      "patterns":[
+         "Thanks",
+         "Thank you",
+         "That's helpful",
+         "Awesome, thanks",
+         "Thanks for helping me"
+      ],
+      "responses":[
+         "Happy to help!",
+         "Any time!",
+         "My pleasure"
+      ],
+      "context":[
+         ""
+      ]
+   },
+   {
+      "tag":"noanswer",
+      "patterns":[
+         
+      ],
+      "responses":[
+         "Sorry, can't understand you",
+         "Please give me more information",
+         "Not sure, I understand"
+      ],
+      "context":[
+         ""
+      ]
+   },
+   {
+      "tag":"options",
+      "patterns":[
+         "How you could help me?",
+         "What you can do?",
+         "What help you provide?",
+         "How you can be helpful?",
+         "What support is offered"
+      ],
+      "responses":[
+         "I can furnish you with the details of various species flora and fauna, forest areas, ecosystem and almost everything you need to know about your environment.\nHope I can help you know and protect your ecosystem!\nNote:My current dataset is trained according to the state of Madhya Pradesh.\nIt would be updated soon and cover all over the country."
+      ],
+      "context":[
+         ""
+      ]
+   },
+   {
+       "tag":"Tiger",
+       "patterns":[
+          "Tiger",
+          "about tiger",
+          "are tigers endangered",
+          "stats about tiger",
+          "project tiger"
+       ],
+       "responses":[
+          "The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.\nIt is most recognizable for its black stripes on orange fur with a white underside.\nHere are some key facts about tigers:\nAlmost 58 tigers are estimated to have been poached for their skins on an average every year.\nThere are 9 sub-species of tigers. However 3 of them are already extinct and others are in verge of extinction.\nProject Tiger is a wildlife conservation movement initiated in India in 1973 to protect the Bengal tiger."
+       ],
+       "context":[
+          ""
+       ]
+    },
+    {
+       "tag":"Elephats",
+       "patterns":[
+          "about elephants",
+          "elephants",
+          "are elephants endagered",
+          "Where elephants are found in MP"
+       ],
+       "responses":[
+          "Elephants are large grey animals with big ears, long noses, and ivory tusks.\nThey are the biggest living land mammals.\nThere are three recognized species of elephants:\n\t1. African Bush Elephant (Loxodonta africana):These elephants are found in sub-Saharan Africa.They have large ears and concave backs.\n\t2. African Forest Elephant (Loxodonta cyclotis):These elephants inhabit the forests of Central and West Africa.They are smaller than African bush elephants.\n\t3.Asian Elephant (Elephas maximus):Asian elephants are found in South Asia and Southeast Asia.They have smaller ears and convex or level backs.\nDistinctive features of elephants include their long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive grey skin. The trunk is prehensile, bringing food and water to the mouth and grasping objects.\n"
+       ],
+       "context":[
+          ""
+       ]
+    },
+    {
+       "tag":"Black buck",
+       "patterns":[
+           "about black buck",
+           "Blackbuck",
+           "are blackbucks endagered",
+           "Where blackbucks are found"
+       ],
+       "responses":[
+        "A blackbuck is a medium-sized antelope native to India and Nepal.\nIt has a two-tone coat, with dark brown or black upper parts and white lower parts.\nMales have long, spiral horns, while females are hornless or have very short horns.\nBlackbucks live in grassy plains and lightly forested areas with water sources.\nThey are herbivorous and graze on low grasses.\nThey are active mainly during the day and form small groups of females, males, or young bachelors.\nThey are the sole living member of the genus Antilope."
+        ],
+        "context":[
+           ""
+        ]
+    },
+    {
+      "tag": "Biodiversity",
+      "patterns": [
+        "Biodiversity",
+        "Species diversity",
+        "Ecosystem diversity",
+        "Genetic diversity",
+        "Conservation of biodiversity"
+      ],
+      "responses": [
+        "Biodiversity encompasses the variety of life on Earth, including species diversity, ecosystem diversity, and genetic diversity.\nSpecies diversity refers to the variety and abundance of different species within a given area or ecosystem.\nEcosystem diversity reflects the range of habitats, communities, and ecological processes present in a region.\nGenetic diversity encompasses the variation within and between species, providing resilience and adaptability to changing environmental conditions.\nConservation of biodiversity is essential for maintaining ecosystem health, resilience, and the provision of ecosystem services that support human well-being."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EcosystemServices",
+      "patterns": [
+        "Ecosystem services",
+        "Ecological benefits",
+        "Natural capital",
+        "Human well-being",
+        "Economic value of ecosystems"
+      ],
+      "responses": [
+        "Ecosystem services are the benefits that people obtain from ecosystems, including provisioning, regulating, cultural, and supporting services.\nProvisioning services provide products such as food, water, timber, and medicinal plants that directly support human well-being.\nRegulating services regulate ecosystem processes such as climate regulation, water purification, and pest control, which contribute to environmental stability and resilience.\nCultural services encompass the non-material benefits that people derive from ecosystems, including aesthetic, spiritual, recreational, and cultural values.\nSupporting services are necessary for the production of all other ecosystem services, such as nutrient cycling, soil formation, and photosynthesis."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "HabitatLoss",
+      "patterns": [
+        "Habitat loss",
+        "Deforestation",
+        "Urbanization",
+        "Land degradation",
+        "Loss of biodiversity"
+      ],
+      "responses": [
+        "Habitat loss is one of the greatest threats to biodiversity, driven primarily by human activities such as deforestation, urbanization, and land degradation.\nDeforestation, the clearing of forests for agriculture, logging, and infrastructure development, is a major cause of habitat loss and biodiversity decline.\nUrbanization and infrastructure expansion lead to the conversion of natural habitats into urban areas, resulting in habitat fragmentation and loss.\nLand degradation, including soil erosion, desertification, and degradation of wetlands, further exacerbates habitat loss and threatens biodiversity.\nLoss of biodiversity due to habitat destruction can have profound ecological, economic, and social consequences, affecting ecosystem function, resilience, and the provision of ecosystem services."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ClimateChange",
+      "patterns": [
+        "Climate change",
+        "Global warming",
+        "Greenhouse gases",
+        "Climate resilience",
+        "Mitigation and adaptation"
+      ],
+      "responses": [
+        "Climate change refers to long-term changes in temperature, precipitation, and other climatic variables, primarily due to human activities such as burning fossil fuels, deforestation, and industrial processes.\nGlobal warming, the increase in Earth's average surface temperature, is a key indicator of climate change, driven by the accumulation of greenhouse gases in the atmosphere.\nGreenhouse gases such as carbon dioxide, methane, and nitrous oxide trap heat in the atmosphere, leading to changes in climate patterns, rising sea levels, and more frequent extreme weather events.\nBuilding climate resilience involves adapting to current and future climate impacts, reducing vulnerability, and enhancing adaptive capacity at local, national, and global scales.\nMitigation strategies aim to reduce greenhouse gas emissions, transition to renewable energy sources, and promote sustainable land use practices to mitigate the drivers of climate change and limit its impacts."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "SustainableDevelopment",
+      "patterns": [
+        "Sustainable development",
+        "Triple bottom line",
+        "Social, economic, environmental",
+        "Interconnectedness",
+        "Equity and justice"
+      ],
+      "responses": [
+        "Sustainable development seeks to meet the needs of the present without compromising the ability of future generations to meet their own needs.\nThe concept of the triple bottom line incorporates social, economic, and environmental dimensions of sustainability, recognizing their interconnectedness and importance for human well-being.\nSocial sustainability entails promoting equity, justice, and inclusive development, ensuring that all individuals have access to basic needs, opportunities, and rights.\nEconomic sustainability involves fostering economic growth, prosperity, and resilience while minimizing environmental degradation and resource depletion.\nEnvironmental sustainability aims to protect and restore ecosystems, conserve biodiversity, and mitigate climate change, ensuring the long-term health and resilience of the planet."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EnvironmentalPolicy",
+      "patterns": [
+        "Environmental policy",
+        "Legislation and regulation",
+        "Environmental governance",
+        "Policy implementation",
+        "Enforcement mechanisms"
+      ],
+      "responses": [
+        "Environmental policy encompasses laws, regulations, and government actions aimed at protecting the environment, conserving natural resources, and addressing environmental challenges.\nLegislation and regulation establish legal frameworks and standards for environmental protection, setting limits on pollution, resource use, and land development.\nEnvironmental governance involves the institutions, processes, and mechanisms for decision-making, policy implementation, and enforcement at local, national, and international levels.\nPolicy implementation involves translating environmental goals and objectives into action through planning, monitoring, and enforcement measures.\nEnforcement mechanisms ensure compliance with environmental laws and regulations, deter illegal activities, and hold polluters accountable for environmental harm."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EnvironmentalAwareness",
+      "patterns": [
+        "Environmental awareness",
+        "Education and outreach",
+        "Public engagement",
+        "Community mobilization",
+        "Behavior change"
+      ],
+      "responses": [
+        "Environmental awareness is the understanding of environmental issues, their causes, consequences, and potential solutions.\nEducation and outreach programs raise awareness, promote environmental literacy, and empower individuals to take action for a sustainable future.\nPublic engagement initiatives involve the active participation of communities, stakeholders, and citizens in decision-making, planning, and implementation of environmental initiatives.\nCommunity mobilization efforts build grassroots support, foster collective action, and mobilize resources for environmental conservation and sustainability.\nBehavior change interventions promote sustainable lifestyles, consumption patterns, and environmental stewardship practices to reduce ecological footprint and promote responsible citizenship."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EcoFriendlyPractices",
+      "patterns": [
+        "Eco-friendly practices",
+        "Sustainable living",
+        "Green lifestyle",
+        "Low-carbon footprint",
+        "Reduce, reuse, recycle"
+      ],
+      "responses": [
+        "Eco-friendly practices promote sustainable living, reduce environmental impact, and minimize ecological footprint.\nAdopting a green lifestyle involves making conscious choices to conserve resources, reduce waste, and minimize energy consumption.\nLow-carbon footprint behaviors such as using renewable energy, driving fuel-efficient vehicles, and reducing meat consumption help mitigate climate change and promote environmental sustainability.\nThe mantra of reduce, reuse, recycle encourages individuals to minimize consumption, reuse products and materials, and recycle waste to conserve resources and reduce environmental pollution."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "CorporateResponsibility",
+      "patterns": [
+        "Corporate responsibility",
+        "Sustainable business practices",
+        "Corporate social responsibility",
+        "Triple bottom line",
+        "Ethical business conduct"
+      ],
+      "responses": [
+        "Corporate responsibility entails integrating social, environmental, and ethical considerations into business operations, decision-making, and stakeholder relations.\nSustainable business practices prioritize environmental stewardship, social equity, and economic prosperity, balancing the triple bottom line of people, planet, and profit.\nCorporate social responsibility initiatives involve corporate philanthropy, community engagement, and sustainability reporting to demonstrate commitment to ethical business conduct.\nEthical business practices uphold principles of integrity, transparency, and accountability, ensuring that companies operate in a socially and environmentally responsible manner."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "RenewableEnergy",
+      "patterns": [
+        "Renewable energy",
+        "Solar power",
+        "Wind energy",
+        "Hydropower",
+        "Geothermal energy"
+      ],
+      "responses": [
+        "Renewable energy sources such as solar power, wind energy, hydropower, and geothermal energy offer clean, sustainable alternatives to fossil fuels.\nInvesting in renewable energy infrastructure reduces greenhouse gas emissions, mitigates climate change, and promotes energy independence.\nBy harnessing the power of renewables, we can transition to a low-carbon economy and protect the planet for future generations."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "SustainableAgriculture",
+      "patterns": [
+        "Sustainable agriculture",
+        "Regenerative farming",
+        "Organic farming",
+        "Agroecology",
+        "Food sovereignty"
+      ],
+      "responses": [
+        "Sustainable agriculture practices promote soil health, biodiversity conservation, and resilience to climate change.\nRegenerative farming techniques such as crop rotation, cover cropping, and no-till farming improve soil fertility, sequester carbon, and reduce the need for synthetic inputs.\nOrganic farming methods eschew synthetic pesticides and fertilizers, prioritize ecological balance, and support biodiversity."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "GreenBuilding",
+      "patterns": [
+        "Green building",
+        "LEED certification",
+        "Energy-efficient design",
+        "Sustainable construction",
+        "Green infrastructure"
+      ],
+      "responses": [
+        "Green building practices prioritize energy efficiency, resource conservation, and environmental sustainability in construction and design.\nLEED (Leadership in Energy and Environmental Design) certification ensures that buildings meet high standards of sustainability and environmental performance.\nEnergy-efficient design features such as passive solar heating, efficient insulation, and renewable energy integration reduce energy consumption and greenhouse gas emissions."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "CarbonOffset",
+      "patterns": [
+        "Carbon offset",
+        "Carbon footprint",
+        "Offsetting emissions",
+        "Carbon credits",
+        "Climate neutrality"
+      ],
+      "responses": [
+        "Carbon offsetting enables individuals and organizations to mitigate their carbon footprint by investing in projects that reduce greenhouse gas emissions.\nCarbon credits represent the reduction or removal of greenhouse gas emissions equivalent to one metric ton of carbon dioxide.\nOffset projects may include reforestation, renewable energy development, methane capture, and energy efficiency initiatives."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EcologicalRestoration",
+      "patterns": [
+        "Ecological restoration",
+        "Habitat rehabilitation",
+        "Ecosystem recovery",
+        "Restoration ecology",
+        "Reforestation projects"
+      ],
+      "responses": [
+        "Ecological restoration aims to repair and rehabilitate degraded ecosystems, improve biodiversity, and enhance ecosystem services.\nHabitat rehabilitation projects restore degraded habitats such as wetlands, forests, and grasslands to support native species and ecosystem function.\nEcosystem recovery efforts may involve removing invasive species, restoring natural hydrology, and implementing sustainable land management practices."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "CircularEconomy",
+      "patterns": [
+        "Circular economy",
+        "Resource efficiency",
+        "Waste reduction",
+        "Closed-loop systems",
+        "Product life cycle"
+      ],
+      "responses": [
+        "The circular economy aims to maximize resource efficiency, minimize waste generation, and promote sustainable consumption and production.\nClosed-loop systems prioritize recycling, reuse, and remanufacturing to keep materials and products in circulation.\nProduct life cycle assessments evaluate environmental impacts from raw material extraction to end-of-life disposal, informing decisions to reduce environmental footprints."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "NatureConservation",
+      "patterns": [
+        "Nature conservation",
+        "Protected areas",
+        "Biodiversity hotspots",
+        "Habitat preservation",
+        "Nature reserves"
+      ],
+      "responses": [
+        "Nature conservation efforts aim to protect and preserve biodiversity, habitats, and ecosystems for present and future generations.\nEstablishing protected areas such as national parks, wildlife sanctuaries, and marine reserves safeguards critical habitats and species.\nBiodiversity hotspots, areas with exceptionally high levels of species richness and endemism, are prioritized for conservation action to prevent species loss and ecosystem degradation."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EmpoweringYouth",
+      "patterns": [
+        "Empowering youth",
+        "Youth engagement",
+        "Youth leadership",
+        "Youth for climate action",
+        "Next generation stewardship"
+      ],
+      "responses": [
+        "Empowering youth is essential for building a sustainable future and fostering inter-generational stewardship of the environment.\nYouth engagement initiatives provide opportunities for young people to participate in environmental activism, advocacy, and leadership.\nYouth-led movements for climate action, biodiversity conservation, and sustainable development catalyze positive change and inspire collective action towards a more equitable and resilient world."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "SustainabilityEducation",
+      "patterns": [
+        "Sustainability education",
+        "Green curriculum",
+        "Environmental studies",
+        "Sustainable living courses",
+        "Education for sustainable development"
+      ],
+      "responses": [
+        "Sustainability education fosters knowledge, skills, and values needed to address environmental challenges and promote sustainable development.\nIntegrating sustainability into school curricula, higher education programs, and lifelong learning initiatives prepares individuals to make informed decisions and take action for a more sustainable future.\nEducation for sustainable development empowers learners to understand interconnectedness, appreciate diversity, and envision pathways to a more just and sustainable world."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "GreenEconomy",
+      "patterns": [
+        "Green economy",
+        "Circular economy",
+        "Sustainable business",
+        "Green jobs",
+        "Economic transformation"
+      ],
+      "responses": [
+        "The green economy prioritizes environmental sustainability, social equity, and economic prosperity in economic development.\nCircular economy principles promote resource efficiency, waste reduction, and closed-loop systems to minimize environmental impact.\nSustainable businesses create green jobs, drive innovation, and contribute to a resilient, low-carbon economy that works for people and the planet."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "PollutionControl",
+      "patterns": [
+        "Pollution control",
+        "Air quality",
+        "Water pollution",
+        "Waste management",
+        "Toxic contaminants"
+      ],
+      "responses": [
+        "Pollution control measures are essential for safeguarding human health, protecting ecosystems, and preserving environmental quality.\nAir quality monitoring, emissions controls, and clean energy policies reduce air pollution and mitigate health risks.\nWater pollution prevention efforts focus on wastewater treatment, stormwater management, and reducing industrial and agricultural runoff.\nEffective waste management practices include recycling, composting, and reducing single-use plastics to minimize waste generation and pollution."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ClimateResilience",
+      "patterns": [
+        "Climate resilience",
+        "Adaptation strategies",
+        "Resilient infrastructure",
+        "Natural disaster preparedness",
+        "Climate-smart agriculture"
+      ],
+      "responses": [
+        "Building climate resilience is essential for minimizing the impacts of climate change, protecting communities, and ensuring sustainable development.\nAdaptation strategies include investing in resilient infrastructure, enhancing natural ecosystems, and implementing early warning systems for extreme weather events.\nClimate-smart agriculture practices promote sustainable farming methods, improve food security, and enhance resilience to climate variability."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "SustainableFisheries",
+      "patterns": [
+        "Sustainable fisheries",
+        "Fisheries management",
+        "Marine conservation",
+        "Overfishing",
+        "Fish stock depletion"
+      ],
+      "responses": [
+        "Sustainable fisheries management is crucial for maintaining healthy fish populations, supporting livelihoods, and preserving marine ecosystems.\nEffective fisheries management strategies include setting catch limits, implementing fishing quotas, and protecting spawning grounds.\nMarine conservation measures such as establishing marine protected areas and reducing bycatch help prevent overfishing and promote the long-term sustainability of fisheries."
+      ],
+      "context": [""]
+    }
+]
+}
